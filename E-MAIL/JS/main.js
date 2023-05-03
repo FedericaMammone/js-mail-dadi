@@ -1,0 +1,1 @@
+const mail = ['fede@mail.com', 'ciccio@panzo.com', 'anita@hey.it', 'buli@boolean.it', 'alex@karev.com', 'derek@shep.com' ];
