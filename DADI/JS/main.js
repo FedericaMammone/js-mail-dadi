@@ -24,8 +24,21 @@ function miaFunzione() {
     document.getElementById('pcNumber').innerHTML = messaggioPC + numeroPC;
     
     // creo condizione
-
+    if (numeroUser > numeroPC) {
+        risultato = "Il vincitore è l'utente";
+        console.log(risultato);
     
+    } else if (numeroUser === numeroPC) {
+        risultato = "PAREGGIO";
+        console.log(risultato);
+    
+    } else {
+        risultato = "Il vincitore è il PC";
+    }
+
+    // mostro il risultato finale in output
+    document.getElementById("risultatoFinale").innerHTML = `${risultato}`;
+
 }
 
 
